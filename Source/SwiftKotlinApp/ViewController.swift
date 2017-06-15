@@ -10,7 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-    let swiftKotlin = SwiftKotlin()
+    let swiftKotlin = SwiftKotlinAST()
     
     @IBOutlet var swiftTextView: NSTextView!
     @IBOutlet var kotlinTextView: NSTextView!
@@ -44,28 +44,31 @@ class ViewController: NSViewController {
     func translateSwift(withSwiftFormatting: Bool = true, withKotlinFormatting: Bool = true) {
         
         let swift = swiftTextView.string ?? ""
-        let swiftTokens = tokenize(swift)
-        let kotlinTokens = (try? self.swiftKotlin.translate(tokens: swiftTokens)) ?? []
+//        let swiftTokens = tokenize(swift)
+//        let kotlinTokens = (try? self.swiftKotlin.translate(tokens: swiftTokens)) ?? []
+        let kotlin = try? swiftKotlin.translate(content: swift)
         
         DispatchQueue.main.async {
-            self.swiftTextView.textStorage?.beginEditing()
-            self.kotlinTextView.textStorage?.beginEditing()
+            self.kotlinTextView.string = kotlin ?? ""
             
-            if withSwiftFormatting {
-                let formatted = self.attributedStringFromTokens(tokens: swiftTokens)
-                self.swiftTextView.textStorage?.setAttributedString(formatted)
-            }
+//            self.swiftTextView.textStorage?.beginEditing()
+//            self.kotlinTextView.textStorage?.beginEditing()
+            
+//            if withSwiftFormatting {
+//                let formatted = self.attributedStringFromTokens(tokens: swiftTokens)
+//                self.swiftTextView.textStorage?.setAttributedString(formatted)
+//            }
 
-            if withKotlinFormatting {
-                let formatted = self.attributedStringFromTokens(tokens: kotlinTokens)
-                self.kotlinTextView.textStorage?.setAttributedString(formatted)                
-            }
-            else {
-                self.kotlinTextView.string = kotlinTokens.reduce("", { $0! + $1.string })
-            }
+//            if withKotlinFormatting {
+//                let formatted = self.attributedStringFromTokens(tokens: kotlinTokens)
+//                self.kotlinTextView.textStorage?.setAttributedString(formatted)                
+//            }
+//            else {
+//                self.kotlinTextView.string = kotlinTokens.reduce("", { $0! + $1.string })
+//            }
             
-            self.swiftTextView.textStorage?.endEditing()
-            self.kotlinTextView.textStorage?.endEditing()
+//            self.swiftTextView.textStorage?.endEditing()
+//            self.kotlinTextView.textStorage?.endEditing()
         }
     }
     

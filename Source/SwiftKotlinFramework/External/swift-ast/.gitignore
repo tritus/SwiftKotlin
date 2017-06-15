@@ -1,0 +1,6 @@
+.DS_Store
+.build
+Packages/
+swift-ast.xcodeproj/
+build/
+swift-ast_github_issue_*.md

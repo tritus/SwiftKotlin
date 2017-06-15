@@ -105,6 +105,37 @@
 		78F032D41D86C15400BE709A /* SwiftKotlinFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F032C91D86C15400BE709A /* SwiftKotlinFramework.framework */; };
 		78F032D91D86C15400BE709A /* SwiftKotlinFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F032D81D86C15400BE709A /* SwiftKotlinFrameworkTests.swift */; };
 		78F032E71D86C1C400BE709A /* SwiftKotlinFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F032E51D86C1C400BE709A /* SwiftKotlinFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59846591EF30C2B009C58DC /* SwiftKotlinAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */; };
+		D598471C1EF31060009C58DC /* AST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59847071EF31056009C58DC /* AST.framework */; };
+		D598471D1EF31060009C58DC /* Diagnostic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59846FF1EF31056009C58DC /* Diagnostic.framework */; };
+		D598471E1EF31060009C58DC /* Frontend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D598470B1EF31056009C58DC /* Frontend.framework */; };
+		D598471F1EF31060009C58DC /* Lexer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59847091EF31056009C58DC /* Lexer.framework */; };
+		D59847201EF31060009C58DC /* Parser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59847051EF31056009C58DC /* Parser.framework */; };
+		D59847211EF31060009C58DC /* Source.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59847011EF31056009C58DC /* Source.framework */; };
+		D59847221EF31206009C58DC /* SwiftKotlinAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */; };
+		D59847231EF31206009C58DC /* SwiftKotlinAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */; };
+		D59847241EF31207009C58DC /* SwiftKotlinAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */; };
+		D59847251EF31207009C58DC /* SwiftKotlinAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */; };
+		D59847281EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */; };
+		D59847291EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */; };
+		D598472A1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */; };
+		D598472B1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */; };
+		D598472C1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */; };
+		D598472E1EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */; };
+		D598472F1EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */; };
+		D59847301EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */; };
+		D59847311EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */; };
+		D59847321EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */; };
+		D59847341EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */; };
+		D59847351EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */; };
+		D59847361EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */; };
+		D59847371EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */; };
+		D59847381EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */; };
+		D598473A1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */; };
+		D598473B1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */; };
+		D598473C1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */; };
+		D598473D1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */; };
+		D598473E1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */; };
 		FCDB55B51EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB55B41EC7E39500195B26 /* ConditionalCompilationTransformer.swift */; };
 		FCDB55B61EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB55B41EC7E39500195B26 /* ConditionalCompilationTransformer.swift */; };
 		FCDB55B71EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB55B41EC7E39500195B26 /* ConditionalCompilationTransformer.swift */; };
@@ -137,6 +168,153 @@
 			proxyType = 1;
 			remoteGlobalIDString = 78F032C81D86C15400BE709A;
 			remoteInfo = SwiftKotlinFramework;
+		};
+		D59846E41EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_367;
+			remoteInfo = Diagnostic;
+		};
+		D59846E61EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_379;
+			remoteInfo = Source;
+		};
+		D59846E81EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_413;
+			remoteInfo = Parser;
+		};
+		D59846EA1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_409;
+			remoteInfo = AST;
+		};
+		D59846EC1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_411;
+			remoteInfo = Lexer;
+		};
+		D59846EE1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_415;
+			remoteInfo = Frontend;
+		};
+		D59846FE1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_352;
+			remoteInfo = Diagnostic;
+		};
+		D59847001EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_353;
+			remoteInfo = Source;
+		};
+		D59847021EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_354;
+			remoteInfo = "swift-ast";
+		};
+		D59847041EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_355;
+			remoteInfo = Parser;
+		};
+		D59847061EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_356;
+			remoteInfo = AST;
+		};
+		D59847081EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_357;
+			remoteInfo = Lexer;
+		};
+		D598470A1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_358;
+			remoteInfo = Frontend;
+		};
+		D598470C1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_359;
+			remoteInfo = ASTVisitorTests;
+		};
+		D598470E1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_360;
+			remoteInfo = ASTTests;
+		};
+		D59847101EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_361;
+			remoteInfo = CanaryTests;
+		};
+		D59847121EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_362;
+			remoteInfo = LexerTests;
+		};
+		D59847141EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_363;
+			remoteInfo = ParserTests;
+		};
+		D59847161EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_364;
+			remoteInfo = DiagnosticTests;
+		};
+		D59847181EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_365;
+			remoteInfo = IntegrationTests;
+		};
+		D598471A1EF31056009C58DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_366;
+			remoteInfo = SourceTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -209,6 +387,12 @@
 		78F032DA1D86C15400BE709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F032E41D86C1C400BE709A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F032E51D86C1C400BE709A /* SwiftKotlinFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftKotlinFramework.h; sourceTree = "<group>"; };
+		D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftKotlinAST.swift; sourceTree = "<group>"; };
+		D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift-ast.xcodeproj"; path = "swift-ast/swift-ast.xcodeproj"; sourceTree = "<group>"; };
+		D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASTTextRepresentable+Kotlin.swift"; sourceTree = "<group>"; };
+		D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASTKotlin+Declaration.swift"; sourceTree = "<group>"; };
+		D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASTKotlin+Expression.swift"; sourceTree = "<group>"; };
+		D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASTKotlin+Statement.swift"; sourceTree = "<group>"; };
 		FCDB55B41EC7E39500195B26 /* ConditionalCompilationTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalCompilationTransformer.swift; sourceTree = "<group>"; };
 		FCDB55BA1EC7E42400195B26 /* ConditionalCompilationTransformerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalCompilationTransformerTests.swift; sourceTree = "<group>"; };
 		FCDB55BC1EC81BF000195B26 /* TransformOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOptions.swift; sourceTree = "<group>"; };
@@ -241,6 +425,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D598471C1EF31060009C58DC /* AST.framework in Frameworks */,
+				D598471D1EF31060009C58DC /* Diagnostic.framework in Frameworks */,
+				D598471E1EF31060009C58DC /* Frontend.framework in Frameworks */,
+				D598471F1EF31060009C58DC /* Lexer.framework in Frameworks */,
+				D59847201EF31060009C58DC /* Parser.framework in Frameworks */,
+				D59847211EF31060009C58DC /* Source.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +510,7 @@
 		78CC67861DC8B39C0039511C /* External */ = {
 			isa = PBXGroup;
 			children = (
+				D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */,
 				78CC67871DC8B39C0039511C /* SwiftFormat */,
 			);
 			name = External;
@@ -389,13 +580,15 @@
 		78F032CB1D86C15400BE709A /* SwiftKotlinFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D59847261EF31855009C58DC /* AST */,
 				78A7E5BE1DB9092F00D77182 /* Extensions */,
 				78DC1FBB1D897FF8009E0283 /* Protocols */,
 				78DC1FBA1D897FED009E0283 /* Transformers */,
 				78F032E31D86C1C400BE709A /* SupportingFiles */,
-				78DC1FBC1D898021009E0283 /* SwiftKotlin.swift */,
 				78CC67861DC8B39C0039511C /* External */,
 				FCDB55BC1EC81BF000195B26 /* TransformOptions.swift */,
+				78DC1FBC1D898021009E0283 /* SwiftKotlin.swift */,
+				D59846581EF30C2B009C58DC /* SwiftKotlinAST.swift */,
 			);
 			path = SwiftKotlinFramework;
 			sourceTree = "<group>";
@@ -426,6 +619,39 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D59846B61EF30F4F009C58DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59846FF1EF31056009C58DC /* Diagnostic.framework */,
+				D59847011EF31056009C58DC /* Source.framework */,
+				D59847031EF31056009C58DC /* swift-ast */,
+				D59847051EF31056009C58DC /* Parser.framework */,
+				D59847071EF31056009C58DC /* AST.framework */,
+				D59847091EF31056009C58DC /* Lexer.framework */,
+				D598470B1EF31056009C58DC /* Frontend.framework */,
+				D598470D1EF31056009C58DC /* ASTVisitorTests.xctest */,
+				D598470F1EF31056009C58DC /* ASTTests.xctest */,
+				D59847111EF31056009C58DC /* CanaryTests.xctest */,
+				D59847131EF31056009C58DC /* LexerTests.xctest */,
+				D59847151EF31056009C58DC /* ParserTests.xctest */,
+				D59847171EF31056009C58DC /* DiagnosticTests.xctest */,
+				D59847191EF31056009C58DC /* IntegrationTests.xctest */,
+				D598471B1EF31056009C58DC /* SourceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59847261EF31855009C58DC /* AST */ = {
+			isa = PBXGroup;
+			children = (
+				D59847271EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift */,
+				D598472D1EF31BD7009C58DC /* ASTKotlin+Declaration.swift */,
+				D59847331EF31E5A009C58DC /* ASTKotlin+Expression.swift */,
+				D59847391EF31EC3009C58DC /* ASTKotlin+Statement.swift */,
+			);
+			path = AST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +733,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				D59846E51EF31056009C58DC /* PBXTargetDependency */,
+				D59846E71EF31056009C58DC /* PBXTargetDependency */,
+				D59846E91EF31056009C58DC /* PBXTargetDependency */,
+				D59846EB1EF31056009C58DC /* PBXTargetDependency */,
+				D59846ED1EF31056009C58DC /* PBXTargetDependency */,
+				D59846EF1EF31056009C58DC /* PBXTargetDependency */,
 			);
 			name = SwiftKotlinFramework;
 			productName = SwiftKotlinFramework;
@@ -579,6 +811,12 @@
 			mainGroup = 78F032BF1D86C15400BE709A;
 			productRefGroup = 78F032CA1D86C15400BE709A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D59846B61EF30F4F009C58DC /* Products */;
+					ProjectRef = D59846B51EF30F4F009C58DC /* swift-ast.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				78F032C81D86C15400BE709A /* SwiftKotlinFramework */,
@@ -589,6 +827,114 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D59846FF1EF31056009C58DC /* Diagnostic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Diagnostic.framework;
+			remoteRef = D59846FE1EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847011EF31056009C58DC /* Source.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Source.framework;
+			remoteRef = D59847001EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847031EF31056009C58DC /* swift-ast */ = {
+			isa = PBXReferenceProxy;
+			fileType = text;
+			path = "swift-ast";
+			remoteRef = D59847021EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847051EF31056009C58DC /* Parser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Parser.framework;
+			remoteRef = D59847041EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847071EF31056009C58DC /* AST.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AST.framework;
+			remoteRef = D59847061EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847091EF31056009C58DC /* Lexer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lexer.framework;
+			remoteRef = D59847081EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D598470B1EF31056009C58DC /* Frontend.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Frontend.framework;
+			remoteRef = D598470A1EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D598470D1EF31056009C58DC /* ASTVisitorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = ASTVisitorTests.xctest;
+			remoteRef = D598470C1EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D598470F1EF31056009C58DC /* ASTTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = ASTTests.xctest;
+			remoteRef = D598470E1EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847111EF31056009C58DC /* CanaryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = CanaryTests.xctest;
+			remoteRef = D59847101EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847131EF31056009C58DC /* LexerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = LexerTests.xctest;
+			remoteRef = D59847121EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847151EF31056009C58DC /* ParserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = ParserTests.xctest;
+			remoteRef = D59847141EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847171EF31056009C58DC /* DiagnosticTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = DiagnosticTests.xctest;
+			remoteRef = D59847161EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D59847191EF31056009C58DC /* IntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = IntegrationTests.xctest;
+			remoteRef = D59847181EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D598471B1EF31056009C58DC /* SourceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SourceTests.xctest;
+			remoteRef = D598471A1EF31056009C58DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		787496511DD3342F00FA12AD /* Resources */ = {
@@ -629,16 +975,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				784A9EED1DCA104200FFAE7D /* FunctionParametersTransformer.swift in Sources */,
+				D59847361EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */,
+				D59847231EF31206009C58DC /* SwiftKotlinAST.swift in Sources */,
 				784A9EFE1DCB53FE00FFAE7D /* PropertyTransformer.swift in Sources */,
 				787D805B1E2A9AB50094747C /* FoundationTypeTransformer.swift in Sources */,
+				D598473C1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */,
 				787D80631E2A9CE00094747C /* StringInterpolatorTransformer.swift in Sources */,
 				7874964E1DD32DE400FA12AD /* StructTransformer.swift in Sources */,
 				7868A8981DCC8AD0006F4DDB /* FormatterExtensions.swift in Sources */,
 				7868A8941DCC8A49006F4DDB /* Formatter.swift in Sources */,
 				FCDB55BF1EC81CA500195B26 /* TransformOptions.swift in Sources */,
 				784A9EEB1DCA104200FFAE7D /* ControlFlowTransformer.swift in Sources */,
+				D59847301EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */,
 				7868A8BB1DCCAF28006F4DDB /* StaticTransformer.swift in Sources */,
 				784A9EEE1DCA104A00FFAE7D /* SwiftKotlin.swift in Sources */,
+				D598472A1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */,
 				FCE34AFE1EB74B9300681164 /* ConstructorTransformer.swift in Sources */,
 				784A9EEA1DCA103D00FFAE7D /* NSRangeExtensions.swift in Sources */,
 				7868A89C1DCC920C006F4DDB /* TokenizerExtensions.swift in Sources */,
@@ -654,6 +1005,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D598473D1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */,
 				7878597D1DD339700036D592 /* PropertyTransformer.swift in Sources */,
 				787496581DD3342F00FA12AD /* ViewController.swift in Sources */,
 				FCE34AFF1EB74B9300681164 /* ConstructorTransformer.swift in Sources */,
@@ -662,11 +1014,15 @@
 				787D80641E2A9CE00094747C /* StringInterpolatorTransformer.swift in Sources */,
 				7878597A1DD339700036D592 /* ExtensionTransformer.swift in Sources */,
 				787859881DD339750036D592 /* NSRangeExtensions.swift in Sources */,
+				D59847241EF31207009C58DC /* SwiftKotlinAST.swift in Sources */,
+				D59847371EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */,
 				787D805C1E2A9AB60094747C /* FoundationTypeTransformer.swift in Sources */,
 				787859761DD339680036D592 /* Tokenizer.swift in Sources */,
+				D59847311EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */,
 				787496561DD3342F00FA12AD /* AppDelegate.swift in Sources */,
 				787859791DD339700036D592 /* ControlFlowTransformer.swift in Sources */,
 				7878597F1DD339700036D592 /* StructTransformer.swift in Sources */,
+				D598472B1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */,
 				FCDB55B81EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */,
 				787859751DD339680036D592 /* Formatter.swift in Sources */,
 				7878597C1DD339700036D592 /* FunctionParametersTransformer.swift in Sources */,
@@ -682,16 +1038,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				787859771DD339680036D592 /* Formatter.swift in Sources */,
+				D59847381EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */,
+				D59847251EF31207009C58DC /* SwiftKotlinAST.swift in Sources */,
 				7878598C1DD339760036D592 /* TokenizerExtensions.swift in Sources */,
 				787D805D1E2A9AB70094747C /* FoundationTypeTransformer.swift in Sources */,
+				D598473E1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */,
 				787D80651E2A9CE10094747C /* StringInterpolatorTransformer.swift in Sources */,
 				787859841DD339700036D592 /* PropertyTransformer.swift in Sources */,
 				787859781DD339680036D592 /* Tokenizer.swift in Sources */,
 				787859801DD339700036D592 /* ControlFlowTransformer.swift in Sources */,
 				FCDB55C11EC81CA600195B26 /* TransformOptions.swift in Sources */,
 				787859821DD339700036D592 /* KeywordReplacementTransformer.swift in Sources */,
+				D59847321EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */,
 				787859861DD339700036D592 /* StructTransformer.swift in Sources */,
 				787859851DD339700036D592 /* StaticTransformer.swift in Sources */,
+				D598472C1EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */,
 				FCE34B001EB74B9400681164 /* ConstructorTransformer.swift in Sources */,
 				787859811DD339700036D592 /* ExtensionTransformer.swift in Sources */,
 				7878598A1DD339760036D592 /* FormatterExtensions.swift in Sources */,
@@ -711,18 +1072,23 @@
 				7874964C1DD32DE400FA12AD /* StructTransformer.swift in Sources */,
 				78A7E5C01DB9093A00D77182 /* NSRangeExtensions.swift in Sources */,
 				7868A8B91DCCAF28006F4DDB /* StaticTransformer.swift in Sources */,
+				D59847281EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */,
 				7868A89A1DCC920C006F4DDB /* TokenizerExtensions.swift in Sources */,
 				78CC67E91DC8B39C0039511C /* Tokenizer.swift in Sources */,
 				FCDB55B51EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */,
 				78E279721DC8D8DA002A62BF /* ControlFlowTransformer.swift in Sources */,
+				D59846591EF30C2B009C58DC /* SwiftKotlinAST.swift in Sources */,
 				7868A8961DCC8AD0006F4DDB /* FormatterExtensions.swift in Sources */,
+				D598473A1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */,
 				7868A8921DCC8A49006F4DDB /* Formatter.swift in Sources */,
 				7868A8B51DCCAABC006F4DDB /* ExtensionTransformer.swift in Sources */,
+				D598472E1EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */,
 				78A7E5BA1DB8FBC300D77182 /* FunctionParametersTransformer.swift in Sources */,
 				787D80591E2A99B90094747C /* FoundationTypeTransformer.swift in Sources */,
 				FCDB55BD1EC81BF000195B26 /* TransformOptions.swift in Sources */,
 				787D80611E2A9CDD0094747C /* StringInterpolatorTransformer.swift in Sources */,
 				784A9EFC1DCB53FE00FFAE7D /* PropertyTransformer.swift in Sources */,
+				D59847341EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */,
 				78A7E5B51DB8E0C900D77182 /* KeywordReplacementTransformer.swift in Sources */,
 				78DC1FBD1D898021009E0283 /* SwiftKotlin.swift in Sources */,
 			);
@@ -733,6 +1099,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7874964D1DD32DE400FA12AD /* StructTransformer.swift in Sources */,
+				D59847221EF31206009C58DC /* SwiftKotlinAST.swift in Sources */,
 				78A7E5BB1DB8FBC300D77182 /* FunctionParametersTransformer.swift in Sources */,
 				78DC1FBE1D898021009E0283 /* SwiftKotlin.swift in Sources */,
 				7868A8A91DCC9BA0006F4DDB /* ExceptionTransformerTests.swift in Sources */,
@@ -743,12 +1110,14 @@
 				FCDB55B61EC7E39500195B26 /* ConditionalCompilationTransformer.swift in Sources */,
 				78E279731DC8D8DA002A62BF /* ControlFlowTransformer.swift in Sources */,
 				7868A8A71DCC9BA0006F4DDB /* ConstructorTransformerTests.swift in Sources */,
+				D59847291EF3186E009C58DC /* ASTTextRepresentable+Kotlin.swift in Sources */,
 				787D805F1E2A9C5A0094747C /* StringInterpolatorTransformerTests.swift in Sources */,
 				787D80621E2A9CDF0094747C /* StringInterpolatorTransformer.swift in Sources */,
 				787D805A1E2A9AB50094747C /* FoundationTypeTransformer.swift in Sources */,
 				78CC67EA1DC8B39C0039511C /* Tokenizer.swift in Sources */,
 				78F032D91D86C15400BE709A /* SwiftKotlinFrameworkTests.swift in Sources */,
 				7868A89B1DCC920C006F4DDB /* TokenizerExtensions.swift in Sources */,
+				D598472F1EF31BD7009C58DC /* ASTKotlin+Declaration.swift in Sources */,
 				7868A8AB1DCC9BA0006F4DDB /* MemoryManagementTransformerTests.swift in Sources */,
 				784A9EFD1DCB53FE00FFAE7D /* PropertyTransformer.swift in Sources */,
 				FCE34AFD1EB74B9200681164 /* ConstructorTransformer.swift in Sources */,
@@ -762,7 +1131,9 @@
 				7868A8AA1DCC9BA0006F4DDB /* KeywordReplacementTransformerTests.swift in Sources */,
 				7868A8AE1DCC9BA0006F4DDB /* StaticTransformerTests.swift in Sources */,
 				7868A8AC1DCC9BA0006F4DDB /* FunctionParametersTransformerTests.swift in Sources */,
+				D59847351EF31E5A009C58DC /* ASTKotlin+Expression.swift in Sources */,
 				7868A8B61DCCAABC006F4DDB /* ExtensionTransformer.swift in Sources */,
+				D598473B1EF31EC3009C58DC /* ASTKotlin+Statement.swift in Sources */,
 				7868A8A81DCC9BA0006F4DDB /* ControlFlowTransformerTests.swift in Sources */,
 				FCDB55BB1EC7E42400195B26 /* ConditionalCompilationTransformerTests.swift in Sources */,
 				7868A8AF1DCC9BA0006F4DDB /* StructTransformerTests.swift in Sources */,
@@ -781,6 +1152,36 @@
 			isa = PBXTargetDependency;
 			target = 78F032C81D86C15400BE709A /* SwiftKotlinFramework */;
 			targetProxy = 78F032D51D86C15400BE709A /* PBXContainerItemProxy */;
+		};
+		D59846E51EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Diagnostic;
+			targetProxy = D59846E41EF31056009C58DC /* PBXContainerItemProxy */;
+		};
+		D59846E71EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Source;
+			targetProxy = D59846E61EF31056009C58DC /* PBXContainerItemProxy */;
+		};
+		D59846E91EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parser;
+			targetProxy = D59846E81EF31056009C58DC /* PBXContainerItemProxy */;
+		};
+		D59846EB1EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AST;
+			targetProxy = D59846EA1EF31056009C58DC /* PBXContainerItemProxy */;
+		};
+		D59846ED1EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lexer;
+			targetProxy = D59846EC1EF31056009C58DC /* PBXContainerItemProxy */;
+		};
+		D59846EF1EF31056009C58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Frontend;
+			targetProxy = D59846EE1EF31056009C58DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
