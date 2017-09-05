@@ -159,6 +159,7 @@ class ControlFlowTransformer: Transformer {
     
     func transformGuards(_ formatter: Formatter) {
         formatter.forEach(.keyword("guard")) { (i, token) in
+            // TODO : use val variable = optional ?: return in case of very simple guard statements
             formatter.replaceToken(at: i, with: .keyword("if"))
             if let elseIndex = formatter.index(after: i, where: { $0.string == "else" }) {
                 formatter.removeToken(at: elseIndex)
